@@ -1,0 +1,112 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times new Roman',Times,serif;
+}
+body{
+    background-color: black;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.navbar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 25px 9%;
+    /* background-color: slateblue; */
+    display: flex;
+    align-items: center;
+    z-index: 100;
+}
+.navbar.logo{
+    font-weight: 30px;
+    font-size: 30px;
+
+}
+.navbar ul{
+    display: flex;
+}
+.navbar ul li{
+    list-style:none;
+    margin-left: 35px;
+
+}
+.navbar ul li a{
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.5s;
+}
+.navbar ul li:hover a{
+    color: greenyellow;
+
+
+}
+.active{
+    color:greenyellow;
+}
+.home{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    padding: 60px 9% 0;
+    color: white;
+}
+.hinfo h1{
+    font-size: 55px;
+}
+.hinfo h2{
+    font-size: 33px;
+    margin-top: -10px;
+}
+.hinfo p{
+    font-size: 20px;
+    margin:10px 0 25px;
+}
+.btn1{
+    display: flex;
+    align-items: center;
+
+}
+.btn{
+    display: inline-block;
+    padding: 10px 30px;
+    background: green;
+    border: 2px solid green;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgb(230, 27, 12);
+    font-size: 17px;
+    color: black;
+     font-weight: 700;
+}
+.btn:hover{
+    background: transparent;
+    color: chocolate;
+    box-shadow: none;
+}
+.sci{
+    margin-left: 15px;
+}
+.sci a{
+    display:inline-block;
+    border: 2px solid gold;
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 30px;
+    margin: 0 3px;
+    color: crimson;
+    transition: .5s;
+}
+.sci a:hover{
+    background: cadetblue;
+    color: black;
+    box-shadow: 0 0 12px cyan;
+    
+
+}
+.fa-brands:hover{
+    scale:.4;
+}
